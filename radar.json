@@ -10,7 +10,7 @@
       "risk": "Baixo",
       "date": "2026-11-26",
       "reported_at": "2026-11-27",
-      "status": "Indeferimento relatado",
+      "status": "Pleito indeferido pelo Gecex",
       "ncm": [
         "2803.00.19"
       ],
@@ -19,10 +19,16 @@
       "hs": "2803.00",
       "source": "MDIC / GECEX",
       "url": "https://www.gov.br/mdic/pt-br/assuntos/camex/outros-documentos/deliberacoes/deliberacoes-da-243a-reuniao-ordinaria-do-comite-executivo-de-gestao-gecex",
-      "summary": "Boletim inaugural relatou o indeferimento do pleito de aumento de 7,2% para 17,5%. A alíquota aplicável exige conferência no ato oficial.",
+      "summary": "243ª reunião: indeferida elevação de 7,2% para 17,5% solicitada pela ABIQUIM; evita aumento de 10,3 pontos percentuais. Não constitui redução nem prova de tarifa efetiva para todas as origens.",
       "action": "Conferir a TEC vigente e o cadastro fiscal antes de alterar custos.",
-      "verified": false,
-      "history": []
+      "verified": true,
+      "history": [
+        {
+          "date": "2026-11-27",
+          "change": "Revalidação documental da fonte oficial; correlações não verificadas permanecem pendentes."
+        }
+      ],
+      "risk_reason": "Risco baixo pelo indeferimento; conferir tarifa vigente por origem."
     },
     {
       "id": "br-letec-passeio",
@@ -32,19 +38,25 @@
       "risk": "Alto",
       "date": "2026-11-09",
       "reported_at": "2026-11-27",
-      "status": "Vigência relatada",
+      "status": "Deliberação oficial confirmada; anexo do DOU corroborado por reproduções",
       "ncm": [
         "4011.10.00"
       ],
-      "naladi": "Pendente",
+      "naladi": "4011.10.00 (NALADISA 2022; ALADI p. 217)",
       "nandina": "Pendente",
       "hs": "4011.10",
       "source": "MDIC / GECEX",
-      "url": "https://www.gov.br/mdic/pt-br/assuntos/camex/resolucoes/resolucoes",
-      "summary": "O boletim inaugural relatou alíquota de 30% para pneus de passeio na Letec+. Número, vigência e escopo do ato aguardam reconfirmação.",
+      "url": "https://www.gov.br/mdic/pt-br/assuntos/camex/outros-documentos/deliberacoes/deliberacoes-da-242a-reuniao-ordinaria-do-comite-executivo-de-gestao-gecex",
+      "summary": "Gecex aprovou 30% na Letec+ (pleito original 35%; referência 16%). Resolução 978/2026 publicada em 09/11; reproduções do anexo indicam vigência 10/11/2026 a 09/11/2027. Acesso direto ao ato oficial falhou; conferir retificação antes de aplicar.",
       "action": "Validar ato e preferências de origem; revisar cenários de custo de importação.",
-      "verified": false,
-      "history": []
+      "verified": true,
+      "history": [
+        {
+          "date": "2026-11-27",
+          "change": "Revalidação documental da fonte oficial; correlações não verificadas permanecem pendentes."
+        }
+      ],
+      "risk_reason": "Alto: manutenção de custo tributário elevado nas importações sem preferência."
     },
     {
       "id": "br-ad-carga",
@@ -54,19 +66,25 @@
       "risk": "Médio",
       "date": "2026-10-13",
       "reported_at": "2026-11-27",
-      "status": "Revisão relatada",
+      "status": "Revisão em curso; Circular SECEX 94/2026",
       "ncm": [
         "4011.20.90"
       ],
-      "naladi": "Pendente",
+      "naladi": "4011.20.00 (NALADISA 2022; ALADI p. 217)",
       "nandina": "Pendente",
       "hs": "4011.20",
       "source": "MDIC / SECEX",
-      "url": "https://www.gov.br/mdic/pt-br/acesso-a-informacao/institucional/atos-normativos/secex/circulares-secex/2026",
-      "summary": "Boletim anterior registrou revisão de direitos antidumping para pneus de carga. Não constitui confirmação da incidência atual.",
+      "url": "https://www.gov.br/mdic/pt-br/assuntos/comercio-exterior/defesa-comercial-e-interesse-publico/investigacoes/investigacoes-de-defesa-comercial/pneus-de-carga-rvd",
+      "summary": "Circular publicada 13/10/2026 estabelece prazos de revisão para pneus radiais de carga originários de China, Coreia do Sul, Japão e Tailândia. Não institui nova cobrança.",
       "action": "Verificar produto, origem, fabricante e determinação final.",
-      "verified": false,
-      "history": []
+      "verified": true,
+      "history": [
+        {
+          "date": "2026-11-27",
+          "change": "Revalidação documental da fonte oficial; correlações não verificadas permanecem pendentes."
+        }
+      ],
+      "risk_reason": "Médio: incerteza sobre conclusão da revisão; cobrança existente depende da origem e escopo."
     },
     {
       "id": "co-ad-carga",
@@ -76,29 +94,61 @@
       "risk": "Médio",
       "date": "2026-10-06",
       "reported_at": "2026-11-27",
-      "status": "Investigação relatada",
+      "status": "Investigação em andamento conforme MINCIT atualizado em 11/11/2026",
       "ncm": [
-        "4011.20"
+        "4011.20.90 (indicativa)"
       ],
-      "naladi": "Pendente",
-      "nandina": "Pendente",
+      "naladi": "4011.20.00 (NALADISA 2022; ALADI p. 217)",
+      "nandina": "4011.20.10 (indicativa; verificar CAN)",
       "hs": "4011.20",
       "source": "MINCIT",
       "url": "https://www.mincit.gov.co/mincomercioexterior/defensa-comercial/dumping/investigaciones-antidumping-en-curso/neumaticos-caucho-utilizado-autobuses-o-camiones",
-      "summary": "Registro histórico de investigação relatada no primeiro boletim. A determinação definitiva e a classificação nacional devem ser verificadas.",
+      "summary": "Resolução 213 publicada em 27/05/2026 sem direitos provisórios; Resolução 657 de 17/09 rejeitou compromisso de preços; Resolução 682 publicada 06/10 prorrogou envio de fatos essenciais. Código colombiano 4011.20.10.00.",
       "action": "Monitorar decisão final e avaliar fornecedores alternativos.",
-      "verified": false,
+      "verified": true,
+      "history": [
+        {
+          "date": "2026-11-27",
+          "change": "Revalidação documental da fonte oficial; correlações não verificadas permanecem pendentes."
+        }
+      ],
+      "risk_reason": "Médio: possibilidade de direito definitivo sobre pneus chineses; não há confirmação de nova cobrança."
+    },
+    {
+      "id": "br-gecex-819-moto",
+      "title": "Antidumping de pneus diagonais de motocicleta: medida prorrogada",
+      "country": "Brasil",
+      "theme": "Defesa comercial",
+      "risk": "Alto",
+      "date": "2025-12-02",
+      "reported_at": "2026-11-27",
+      "status": "Direito definitivo prorrogado por até cinco anos",
+      "ncm": [
+        "4011.40.00"
+      ],
+      "hs": "4011.40",
+      "naladi": "4011.40.00 (NALADISA 2022; ALADI p. 217)",
+      "nandina": "Pendente",
+      "source": "MDIC / GECEX",
+      "url": "https://www.gov.br/mdic/pt-br/assuntos/comercio-exterior/defesa-comercial-e-interesse-publico/investigacoes/investigacoes-de-defesa-comercial/pneus_moto_rev",
+      "summary": "Resolução GECEX 819 de 01/12/2025 prorrogou direito antidumping sobre pneus diagonais de motocicleta originários de China, Tailândia e Vietnã. Inclusão na base de referência, não novidade do dia.",
+      "action": "Conferir construção diagonal, país e fabricante; parametrizar custo conforme direito aplicável.",
+      "risk_reason": "Alto: cobrança definitiva pode afetar custo e compliance quando produto está no escopo.",
+      "verified": true,
       "history": []
     }
   ],
   "runs": [
     {
       "date": "2026-11-27",
-      "status": "Importação histórica; reconfirmação pendente",
-      "countries_checked": [],
-      "new_events": 4,
-      "updated_events": 0,
-      "notes": "Não representa validação integral das fontes nem dos 12 países."
+      "status": "Revalidação parcial e ampliação da base",
+      "countries_checked": [
+        "Brasil",
+        "Colômbia"
+      ],
+      "new_events": 1,
+      "updated_events": 4,
+      "notes": "Quatro registros históricos revalidados; um ato antigo incluído como referência. Não foi realizada cobertura integral dos 12 países. NALADISA 2022: ALADI, seção VII p. 217. NANDINA e NALADI histórica permanecem pendentes. Ato 978: deliberação oficial verificada, anexo corroborado em fontes secundárias; acesso direto indisponível."
     }
   ]
 }
