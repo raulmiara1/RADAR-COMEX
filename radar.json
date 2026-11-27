@@ -28,7 +28,20 @@
           "change": "Revalidação documental da fonte oficial; correlações não verificadas permanecem pendentes."
         }
       ],
-      "risk_reason": "Risco baixo pelo indeferimento; conferir tarifa vigente por origem."
+      "risk_reason": "Risco baixo pelo indeferimento; conferir tarifa vigente por origem.",
+      "en": {
+        "title": "Carbon black: request for a tariff increase",
+        "status": "Request rejected by GECEX",
+        "summary": "At its 243rd meeting, GECEX rejected ABIQUIM’s request to raise the rate from 7.2% to 17.5%, avoiding the proposed 10.3 percentage-point increase. This is neither a tariff reduction nor proof of the effective rate for every origin.",
+        "action": "Check the current common external tariff and product tax classification before changing cost assumptions.",
+        "risk_reason": "Low risk following rejection of the request; verify the effective tariff by origin.",
+        "history": [
+          {
+            "date": "2026-11-27",
+            "change": "Official-source documentation rechecked; unverified classification correlations remain pending."
+          }
+        ]
+      }
     },
     {
       "id": "br-letec-passeio",
@@ -56,7 +69,20 @@
           "change": "Revalidação documental da fonte oficial; correlações não verificadas permanecem pendentes."
         }
       ],
-      "risk_reason": "Alto: manutenção de custo tributário elevado nas importações sem preferência."
+      "risk_reason": "Alto: manutenção de custo tributário elevado nas importações sem preferência.",
+      "en": {
+        "title": "Passenger car tires: tariff protection",
+        "status": "Official decision confirmed; Official Gazette annex corroborated by reproductions",
+        "summary": "GECEX approved a 30% rate under Letec+ (original request: 35%; reference rate: 16%). Resolution 978/2026 was published on 9 November; reproductions of its annex indicate validity from 10 November 2026 to 9 November 2027. Direct access to the official act failed; check the correction before applying it.",
+        "action": "Validate the act and origin preferences; review import cost scenarios.",
+        "risk_reason": "High: elevated tax costs remain for imports without preferential treatment.",
+        "history": [
+          {
+            "date": "2026-11-27",
+            "change": "Official-source documentation rechecked; unverified classification correlations remain pending."
+          }
+        ]
+      }
     },
     {
       "id": "br-ad-carga",
@@ -84,7 +110,20 @@
           "change": "Revalidação documental da fonte oficial; correlações não verificadas permanecem pendentes."
         }
       ],
-      "risk_reason": "Médio: incerteza sobre conclusão da revisão; cobrança existente depende da origem e escopo."
+      "risk_reason": "Médio: incerteza sobre conclusão da revisão; cobrança existente depende da origem e escopo.",
+      "en": {
+        "title": "Antidumping review of radial truck tires",
+        "status": "Review underway; SECEX Circular 94/2026",
+        "summary": "The circular published on 13 October 2026 sets review deadlines for radial truck tires originating in China, South Korea, Japan and Thailand. It does not impose a new charge.",
+        "action": "Check the product, origin, manufacturer and final determination.",
+        "risk_reason": "Medium: uncertainty over the review outcome; existing duties depend on origin and scope.",
+        "history": [
+          {
+            "date": "2026-11-27",
+            "change": "Official-source documentation rechecked; unverified classification correlations remain pending."
+          }
+        ]
+      }
     },
     {
       "id": "co-ad-carga",
@@ -112,7 +151,20 @@
           "change": "Revalidação documental da fonte oficial; correlações não verificadas permanecem pendentes."
         }
       ],
-      "risk_reason": "Médio: possibilidade de direito definitivo sobre pneus chineses; não há confirmação de nova cobrança."
+      "risk_reason": "Médio: possibilidade de direito definitivo sobre pneus chineses; não há confirmação de nova cobrança.",
+      "en": {
+        "title": "Investigation into truck tires originating in China",
+        "status": "Investigation underway according to MINCIT, updated 11 November 2026",
+        "summary": "Resolution 213, published on 27 May 2026, imposed no provisional duties; Resolution 657 of 17 September rejected a price undertaking; Resolution 682, published on 6 October, extended the deadline for disclosure of essential facts. Colombian code: 4011.20.10.00.",
+        "action": "Monitor the final decision and assess alternative suppliers.",
+        "risk_reason": "Medium: potential definitive duties on Chinese tires; no new charge has been confirmed.",
+        "history": [
+          {
+            "date": "2026-11-27",
+            "change": "Official-source documentation rechecked; unverified classification correlations remain pending."
+          }
+        ]
+      }
     },
     {
       "id": "br-gecex-819-moto",
@@ -135,7 +187,14 @@
       "action": "Conferir construção diagonal, país e fabricante; parametrizar custo conforme direito aplicável.",
       "risk_reason": "Alto: cobrança definitiva pode afetar custo e compliance quando produto está no escopo.",
       "verified": true,
-      "history": []
+      "history": [],
+      "en": {
+        "title": "Antidumping on bias-ply motorcycle tires: measure extended",
+        "status": "Definitive duty extended for up to five years",
+        "summary": "GECEX Resolution 819 of 1 December 2025 extended antidumping duties on bias-ply motorcycle tires originating in China, Thailand and Vietnam. Added as a reference record, not news of the day.",
+        "action": "Check bias-ply construction, country and manufacturer; configure costs according to applicable duties.",
+        "risk_reason": "High: definitive duties may affect cost and compliance when the product falls within scope."
+      }
     },
     {
       "reported_at": "2026-11-27",
@@ -162,7 +221,14 @@
       "action": "Conferir tarifa consolidada, origem e preferências antes de parametrizar custos.",
       "risk_reason": "Exposição a custo de importação sem preferência.",
       "product_family": "Cargas e pigmentos",
-      "product_name": "Negro de fumo de forno"
+      "product_name": "Negro de fumo de forno",
+      "en": {
+        "title": "Furnace carbon black: 25% import tariff",
+        "status": "Decree published; current consolidated tariff to be checked",
+        "summary": "The decree of 23 April 2026 sets a 25% import tariff for furnace carbon black. Preferences depend on meeting the agreement requirements.",
+        "action": "Check the consolidated tariff, origin and preferences before configuring costs.",
+        "risk_reason": "Exposure to import costs without preferential treatment."
+      }
     },
     {
       "reported_at": "2026-11-27",
@@ -187,7 +253,14 @@
       "action": "Verificar rastreabilidade da cadeia e documentação dos fornecedores.",
       "risk_reason": "Possibilidade de impedimento de importação quando atendidas condições legais.",
       "product_family": "Cadeia de suprimentos",
-      "product_name": "Insumos e produtos acabados"
+      "product_name": "Insumos e produtos acabados",
+      "en": {
+        "title": "Ban on imports linked to forced labor",
+        "status": "Decree published",
+        "summary": "Prohibition of goods extracted, produced or processed wholly or partly using forced labor; controls apply under the conditions specified in the decree.",
+        "action": "Check supply chain traceability and supplier documentation.",
+        "risk_reason": "Potential import restrictions when the legal conditions are met."
+      }
     },
     {
       "reported_at": "2026-11-27",
@@ -212,7 +285,14 @@
       "action": "Conferir características técnicas e classificação nacional antes do despacho.",
       "risk_reason": "Possibilidade de divergência de cadastro e classificação.",
       "product_family": "Pneus acabados",
-      "product_name": "Pneus LT e C"
+      "product_name": "Pneus LT e C",
+      "en": {
+        "title": "Classification criteria for LT and C tires",
+        "status": "SENAE notice; reported effective date: 10 December 2025",
+        "summary": "COMEX Resolution 015-2025 introduces national classification criteria and subdivisions within 4011.20.10.10 and 4011.20.90.10. According to SENAE, it neither creates nor increases a tariff.",
+        "action": "Check technical characteristics and national classification before customs clearance.",
+        "risk_reason": "Potential discrepancies in master data and classification."
+      }
     }
   ],
   "runs": [
@@ -227,7 +307,11 @@
       ],
       "new_events": 4,
       "updated_events": 4,
-      "notes": "Quatro registros históricos revalidados; um ato antigo incluído como referência. Não foi realizada cobertura integral dos 12 países. NALADISA 2022: ALADI, seção VII p. 217. NANDINA e NALADI histórica permanecem pendentes. Ato 978: deliberação oficial verificada, anexo corroborado em fontes secundárias; acesso direto indisponível. Nova rodada prioritária: DOF, SENAE, DIAN e MDIC consultados parcialmente; três registros históricos adicionais. Sem confirmação de novidades específicas sobre aramidas ou moldes. Cobertura dos demais países não realizada nesta rodada."
+      "notes": "Quatro registros históricos revalidados; um ato antigo incluído como referência. Não foi realizada cobertura integral dos 12 países. NALADISA 2022: ALADI, seção VII p. 217. NANDINA e NALADI histórica permanecem pendentes. Ato 978: deliberação oficial verificada, anexo corroborado em fontes secundárias; acesso direto indisponível. Nova rodada prioritária: DOF, SENAE, DIAN e MDIC consultados parcialmente; três registros históricos adicionais. Sem confirmação de novidades específicas sobre aramidas ou moldes. Cobertura dos demais países não realizada nesta rodada.",
+      "en": {
+        "status": "Partial revalidation and database expansion",
+        "notes": "Four historical records revalidated; one older act added for reference. Full coverage of the 12 South American countries was not completed. NALADISA 2022: ALADI, section VII, p. 217. NANDINA and historical NALADI remain pending. Act 978: official decision verified; annex corroborated by secondary sources, direct access unavailable. New priority round: DOF, SENAE, DIAN and MDIC partially consulted; three additional historical records. No specific updates on aramids or molds confirmed. Other countries were not covered in this round."
+      }
     }
   ]
 }
