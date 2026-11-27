@@ -1,27 +1,46 @@
-# Radar Comex
+# Radar Comex | Intelligence Desk
 
-**Inteligência aduaneira e geopolítica · Pneus e matérias-primas · América do Sul**
+> Monitoramento de comércio exterior para pneus e matérias-primas em toda a América do Sul.
 
-## Boletim nº 001 — 27/11/2026
+| Área | Funcionalidade |
+|---|---|
+| Visão executiva | Indicadores, manchetes, riscos e distribuição de eventos |
+| Central de eventos | Busca, filtros combinados, detalhe da medida, CSV |
+| Inteligência fiscal | NCM, SH, NALADI/NALADISA e NANDINA |
+| Cobertura e auditoria | 12 países, registro das execuções e lacunas |
+| Minha lista | Acompanhamento de eventos no navegador |
 
-Registro histórico do boletim inaugural apresentado no ChatGPT. As informações abaixo reproduzem a análise anterior; não constituem nova validação das medidas. Consulte os atos oficiais antes de aplicar alterações fiscais.
+## Acesso
 
-| País | Assunto | NCM indicativa | Risco |
-|---|---|---|---|
-| Brasil | Pleito de elevação tarifária de negro de fumo indeferido, conforme análise inaugural | 2803.00.19 | Baixo |
-| Brasil | Alíquota de 30% para pneus de passeio, conforme análise inaugural da Letec+ | 4011.10.00 | Alto |
-| Brasil | Revisão antidumping de pneus de carga | 4011.20.90 | Médio |
-| Colômbia | Investigação antidumping de pneus chineses de carga | SH 4011.20 | Médio |
+- [Interface do portal (código HTML)](index.html)
+- [Base histórica de eventos e execuções](radar.json)
 
-### Fontes oficiais para consulta
+O GitHub exibe o código HTML; para o painel funcionar como site, é necessário hospedá-lo via GitHub Pages ou outro servidor HTTP que sirva os dois arquivos. O repositório permanece privado. No GitHub Pages, a disponibilidade para repositórios privados depende do plano, e a privacidade do site deve ser verificada separadamente.
 
-- [MDIC — deliberações da 243ª reunião Gecex](https://www.gov.br/mdic/pt-br/assuntos/camex/outros-documentos/deliberacoes/deliberacoes-da-243a-reuniao-ordinaria-do-comite-executivo-de-gestao-gecex)
-- [MDIC — Resoluções Gecex](https://www.gov.br/mdic/pt-br/assuntos/camex/resolucoes/resolucoes)
-- [MDIC — Circulares SECEX 2026](https://www.gov.br/mdic/pt-br/acesso-a-informacao/institucional/atos-normativos/secex/circulares-secex/2026)
-- [MINCIT — investigação sobre pneus de carga](https://www.mincit.gov.co/mincomercioexterior/defensa-comercial/dumping/investigaciones-antidumping-en-curso/neumaticos-caucho-utilizado-autobuses-o-camiones)
+### Publicação
 
-**Ações prioritárias:** revisar custos de importação de pneus de passeio; acompanhar revisões e investigações antidumping; validar códigos NCM, NALADI/NALADISA e NANDINA por versão e especificação técnica. A cobertura dos 12 países ainda não foi integralmente validada.
+1. Verifique a visibilidade do repositório e as opções em **Settings → Pages**.
+2. Se o plano permitir, selecione **Deploy from a branch**, branch **main**, pasta **/(root)**.
+3. Após o deploy, verifique a URL apresentada pelo GitHub e se os dados podem ser acessados apenas pelas pessoas pretendidas.
+4. Para teste local, baixe ambos os arquivos na mesma pasta e execute `python -m http.server 8000`. Acesse `http://localhost:8000`.
 
-## Portal
+## Operação
 
-A publicação em GitHub Pages depende da habilitação do serviço nas configurações do repositório. O repositório permanece privado. A integração da rotina agendada com a publicação do portal ainda precisa ser concluída.
+A tarefa diária do ChatGPT está configurada para ler e atualizar `radar.json` e enviar o boletim autorizado por e-mail, separadamente. O primeiro ciclo completo de publicação automática ainda precisa ser confirmado. O navegador relê a base a cada cinco minutos.
+
+A interface usa uma base JSON versionada no GitHub, não PostgreSQL. A base inicial contém quatro registros importados do boletim anterior, marcados como **revalidação pendente**. Não há comprovação de cobertura integral dos 12 países.
+
+## Integridade e governança
+
+- Identificador estável e histórico de revisões por evento.
+- Não se deve duplicar notícias ou sobrescrever o histórico.
+- Risco e verificação são campos independentes; uma medida de alto risco pode estar pendente de confirmação.
+- Correlações fiscais pendentes não devem ser aplicadas a declarações aduaneiras.
+- A classificação e vigência de cada medida devem ser conferidas no ato oficial.
+- Não armazenar e-mails, senhas, tokens ou dados corporativos confidenciais nesta base.
+
+## Estrutura
+
+`index.html`: interface responsiva, JavaScript sem dependências externas, filtros, visualizações e exportação.
+
+`radar.json`: schema_version, updated_at, events, runs. Cada evento contém identificador, assunto, país, tema, risco, datas, códigos fiscais, fonte, status jurídico, ação e histórico. O campo verified indica verificação documental, não autorização para uso aduaneiro.
