@@ -136,6 +136,83 @@
       "risk_reason": "Alto: cobrança definitiva pode afetar custo e compliance quando produto está no escopo.",
       "verified": true,
       "history": []
+    },
+    {
+      "reported_at": "2026-11-27",
+      "verified": true,
+      "history": [],
+      "naladi": "Pendente",
+      "nandina": "Pendente",
+      "id": "mx-dof-5785818-carbon",
+      "title": "Negro de fumo de forno: tarifa de importação de 25%",
+      "country": "México",
+      "theme": "Tarifas",
+      "risk": "Alto",
+      "date": "2026-04-23",
+      "status": "Decreto publicado; tarifa consolidada atual a conferir",
+      "ncm": [
+        "2803.00 (SH; desdobramento NCM pendente)"
+      ],
+      "hs": "2803.00",
+      "tigie": "2803.00.02",
+      "nico": "Pendente",
+      "source": "DOF",
+      "url": "https://sidof.segob.gob.mx/notas/docFuente/5785818",
+      "summary": "Decreto de 23/04/2026 fixa tarifa de importação de 25% para negro de fumo de forno. Preferências dependem dos requisitos do acordo.",
+      "action": "Conferir tarifa consolidada, origem e preferências antes de parametrizar custos.",
+      "risk_reason": "Exposição a custo de importação sem preferência.",
+      "product_family": "Cargas e pigmentos",
+      "product_name": "Negro de fumo de forno"
+    },
+    {
+      "reported_at": "2026-11-27",
+      "verified": true,
+      "history": [],
+      "naladi": "Não aplicável à medida transversal",
+      "nandina": "Não aplicável à medida transversal",
+      "id": "co-decreto-1444-2026",
+      "title": "Proibição de importações vinculadas a trabalho forçado",
+      "country": "Colômbia",
+      "theme": "Legislação",
+      "risk": "Alto",
+      "date": "2026-09-28",
+      "status": "Decreto publicado",
+      "ncm": [
+        "Transversal; sem código exclusivo"
+      ],
+      "hs": "Transversal",
+      "source": "DIAN",
+      "url": "https://normograma.dian.gov.co/dian/compilacion/docs/decreto_1444_2026.htm",
+      "summary": "Proibição de mercadorias extraídas, produzidas ou transformadas total ou parcialmente mediante trabalho forçado; controles nas condições previstas pelo decreto.",
+      "action": "Verificar rastreabilidade da cadeia e documentação dos fornecedores.",
+      "risk_reason": "Possibilidade de impedimento de importação quando atendidas condições legais.",
+      "product_family": "Cadeia de suprimentos",
+      "product_name": "Insumos e produtos acabados"
+    },
+    {
+      "reported_at": "2026-11-27",
+      "verified": true,
+      "history": [],
+      "naladi": "Pendente",
+      "nandina": "Pendente",
+      "id": "ec-comex-015-2025-lt",
+      "title": "Critérios de classificação para pneus LT e C",
+      "country": "Equador",
+      "theme": "Classificação fiscal",
+      "risk": "Médio",
+      "date": "2025-12-05",
+      "status": "Comunicado SENAE; vigência informada 10/12/2025",
+      "ncm": [
+        "4011.20 (SH; desdobramento NCM pendente)"
+      ],
+      "hs": "4011.20",
+      "source": "SENAE",
+      "url": "https://www.aduana.gob.ec/senae-implementara-nuevas-subpartidas-para-la-correcta-clasificacion-arancelaria-de-neumaticos-tipo-lt/",
+      "summary": "Resolução COMEX 015-2025 cria critérios e desdobramentos nacionais dentro de 4011.20.10.10 e 4011.20.90.10. Não cria nem aumenta tarifa segundo SENAE.",
+      "action": "Conferir características técnicas e classificação nacional antes do despacho.",
+      "risk_reason": "Possibilidade de divergência de cadastro e classificação.",
+      "product_family": "Pneus acabados",
+      "product_name": "Pneus LT e C"
     }
   ],
   "runs": [
@@ -144,11 +221,13 @@
       "status": "Revalidação parcial e ampliação da base",
       "countries_checked": [
         "Brasil",
-        "Colômbia"
+        "Colômbia",
+        "México",
+        "Equador"
       ],
-      "new_events": 1,
+      "new_events": 4,
       "updated_events": 4,
-      "notes": "Quatro registros históricos revalidados; um ato antigo incluído como referência. Não foi realizada cobertura integral dos 12 países. NALADISA 2022: ALADI, seção VII p. 217. NANDINA e NALADI histórica permanecem pendentes. Ato 978: deliberação oficial verificada, anexo corroborado em fontes secundárias; acesso direto indisponível."
+      "notes": "Quatro registros históricos revalidados; um ato antigo incluído como referência. Não foi realizada cobertura integral dos 12 países. NALADISA 2022: ALADI, seção VII p. 217. NANDINA e NALADI histórica permanecem pendentes. Ato 978: deliberação oficial verificada, anexo corroborado em fontes secundárias; acesso direto indisponível. Nova rodada prioritária: DOF, SENAE, DIAN e MDIC consultados parcialmente; três registros históricos adicionais. Sem confirmação de novidades específicas sobre aramidas ou moldes. Cobertura dos demais países não realizada nesta rodada."
     }
   ]
 }
